@@ -1,0 +1,15 @@
+# Ignore local configuration containing credentials
+includes/config.php
+.env
+
+# Ignore uploaded files
+uploads/
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+*.log
+
+# IDE
+.vscode/
+
