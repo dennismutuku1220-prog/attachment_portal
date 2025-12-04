@@ -91,10 +91,6 @@ VALUES (
     (SELECT id FROM supervisors LIMIT 1)
 );
 
--- Additional supervisors for production use
--- NOTE: Before running this, generate the password hashes by opening
--- http://localhost/attachment_portal/hash_passwords.php
--- and copy the hashes for Bosco123, Michael123, and Jeremiah123.
 
 INSERT INTO users (name, email, password, role) VALUES
 ('Bosco Mulwa',   'bosco.mulwa@makueni.go.ke',    '$2y$10$FSUtxIlOw/tJ0Yr8ATzHxuZ2IhHrJWeMTtE1NCHzT2sHxlcqzYaja', 'supervisor'),
